@@ -1,7 +1,7 @@
 import { useParams, Link } from "react-router";
 import { products } from "../data/products";
 import { ArrowLeft } from "lucide-react";
-import { ImageWithFallback } from "../components/figma/ImageWithFallback";
+import { ImageWithFallback } from "../figma/ImageWithFallback";
 
 export function ProductDetail() {
   const { id } = useParams<{ id: string }>();
