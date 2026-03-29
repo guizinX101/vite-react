@@ -1,10 +1,10 @@
-import iemanja from '../assets/iemanja.png';
-import oxum from '../assets/oxum.png';
-import iansa from '../assets/iansa.png';
-import padilha from '../assets/pombagira.png';
-import pombagira from '../assets/pombagira1.png';
-import pretovelho from '../assets/pretovelho.png';
-import trancarua from '../assets/exutrancarua.png';
+import iemanja from './imgs/iemanja.png';
+import oxum from './imgs/oxum.png';
+import iansa from './imgs/iansa.png';
+import padilha from './imgs/pombagira.png';
+import pombagira from './imgs/pombagira1.png';
+import pretovelho from './imgs/pretovelho.png';
+import trancarua from './imgs/exutrancarua.png';
 
 export interface Product {
   id: string;
