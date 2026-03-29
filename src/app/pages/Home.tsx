@@ -1,6 +1,6 @@
 import { motion } from 'motion/react';
 import { products } from '../data/products';
-import { ProductCard } from '../components/ProductCard';
+import { ProductCard } from '../components/ProductCart';
 import { Link} from 'react-router';
 
 export function Home() {
