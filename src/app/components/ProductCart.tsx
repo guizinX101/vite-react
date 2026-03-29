@@ -1,4 +1,4 @@
-import { Link } from 'react-router';
+import { Link } from 'react-router-dom';
 import { Product } from '../data/products';
 import { ImageWithFallback } from '../figma/ImageWithFallback';
 

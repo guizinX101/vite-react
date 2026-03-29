@@ -1,7 +1,7 @@
 import { motion } from 'motion/react';
 import { products } from '../data/products';
 import { ProductCard } from '../components/ProductCart';
-import { Link} from 'react-router';
+import { Link} from 'react-router-dom';
 
 export function Home() {
   const featuredProducts = products.filter((p) => p.featured);

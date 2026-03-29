@@ -1,4 +1,4 @@
-import { useSearchParams, Link } from "react-router";
+import { useSearchParams, Link } from "react-router-dom";
 import { products } from "../data/products";
 import { ProductCard } from "../components/ProductCart";
 import { Search as SearchIcon, ArrowLeft } from "lucide-react";
