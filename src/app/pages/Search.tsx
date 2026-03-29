@@ -47,14 +47,14 @@ export function Search() {
         </div>
       ) : (
         <div className="text-center py-20">
-          <SearchIcon className="w-20 h-20 mx-auto mb-4 text-muted-foreground" />
-          <h2 className="text-2xl mb-2">Nenhum produto encontrado</h2>
-          <p className="text-muted-foreground mb-6">
+          <SearchIcon className="w-20 h-20 mx-auto mb-4 text-foreground" />
+          <h2 className="text-2xl mb-2 text-foreground">Nenhum produto encontrado</h2>
+          <p className="text-foreground mb-6">
             Não encontramos produtos com o termo "{query}"
           </p>
           <Link
-            to="/"
-            className="inline-block px-6 py-3 bg-primary text-primary-foreground rounded-lg hover:bg-primary/90 transition-colors"
+            to="/produtos"
+            className="inline-block px-6 py-3 bg-primary text-foreground rounded-lg hover:bg-primary/90 transition-colors"
           >
             Ver Todos os Produtos
           </Link>
