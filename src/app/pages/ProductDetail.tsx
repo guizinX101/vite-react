@@ -55,7 +55,7 @@ export function ProductDetail() {
               href="https://wa.me/5517996262224"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:underline bg-[#ffffff4b] py-8 px-12 rounded-2xl hover:bg-[#00000027]"
+              className="bg-green-500 hover:bg-green-600 text-white py-8 px-12 rounded-2xl hover:bg-[#00000027]"
             >
               Pedir
             </a>
